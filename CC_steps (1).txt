@@ -1,0 +1,163 @@
+PRACTICAL 2
+Aim: Installation and configuration of virtualization using KVM
+
+
+STEPS:
+1. First, update the repositories using command - sudo apt-get update
+2. Then, install essential KVM packages with the command –
+sudo apt-get install qemu-kvm libvirt-daemon-system libvirt-clients
+bridge-utils
+3. To install virt-manager, a tool for creating and managing VMs:
+sudo apt-get install virt-manager
+4. Start virt-manager with: sudo virt-manager
+5. In the first window, click the computer icon in the upper-left corner.
+6. In the dialogue box that opens, select the option to install the VM using
+an ISO image. Then click Forward
+7. In the next dialogue, click Browse Local and navigate to the path where
+you stored the ISO you wish to install.
+8. The ISO you chose in the previous window populates the field in Step 2.
+Proceed to Step 3 by clicking Forward.
+9. Enter the amount of RAM and the number of CPUs you wish to allocate
+to the VM and proceed to the next step.
+10. Allocate hard disk space to the VM. Click Forward to go to the last step.
+11. Specify the name for your VM and click Finish to complete the setup
+12. The VM starts automatically, prompting you to start installing the OS
+that’s on the ISO file.
+
+__________________________________________________________________________________________________________________________________________
+
+PRAC 5
+Aim: Study and implementation of Identity
+Management.
+
+Step 1: Go to aws.amazon.com and Login as Root User. 
+Step 2: Go to Security Credentials.
+Step 3: Then you will get Identity and Access Management Page. 
+Step 4: Click on Users. You will get following page.
+Step 5: Click on Add Users as shown in above screen shot. 
+Step 6: Click on enable console access. 
+Step 7: Click on Custom Password and Enter the password for the
+user, click on Next. 
+Step 8: Click on Create User.
+Step 9: Copy the console sign in url in task bar. 
+Step 10: Enter the IAM username and password. 
+Step 11: Enter old password, new password, retype new password
+and Click on confirm password change. User will be logged. 
+
+___________________________________________________________________________________________
+
+Practical – 6
+Aim: Study Cloud Security Management.
+
+Step 1: Go to aws.amazon.com and Login as Root User. 
+Step 2: Go to Security Credentials. 
+Step 3: Click on User Groups and Create Group. 
+Step 4: Enter Group Name. Select users to be added to group. Click
+on Create Group.
+Step 5: Click on Users. Click on particular user. 
+Step 6: Add Permissions. 
+Step 7: Click on Attach Policies directly. Select Administration access.
+Click on Next. 
+Step 8: Click on Add Permissions.
+Step 9: Go to Tab Security Credentials. Click on Assign MFA Device. 
+Step 10: Enter Device Name, Select MFA Device as authenticator app
+and Click on Next 
+Step 11: Click on shown OR Code. Open Google authenticator app on
+mobile and Enter MFA codes 1 and 2. 
+Step 12: Copy the console sign in link and Enter username and
+password. Enter MFA Code. The user will be given access to console.
+This is Security Provided using Multifactor authentication. 
+
+___________________________________________________________________________________________
+
+Practical – 7
+Aim : :Write a program for web feed
+First open Notepad and write the following XML code in it.
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<item>
+<title> itvoyagers</title>
+<link> https://itvoyagers.in/ </link>
+<description>ITVoyagers is an educational blog for information technology and computer
+science program.We have started this
+blog with a goal of meeting the requirements of learners to cope with the changing technology.
+We are aiming to expand its scope in all sections of IT.</description>
+</item>
+<item>
+<title>Cloud Computing</title>
+<link> https://itvoyagers.in/cloud-computing/</link>
+<description>Cloud Computing</description>
+</item>
+<item>
+<title>Business intelligence </title>
+<link> https://itvoyagers.in/advance-topics/business-intelligence/</link>
+<description>Business intelligence blog</description>
+</item>
+<item>
+<title>work from home</title>
+<link>https://www.lifecharger.org/work-from-home-5-tips/</link>
+<description>work from home</description>
+</item>
+</channel>
+</rss>
+
+Save the as “ITVoyagers.xml” file in “C:\xampp\htdocs\RSS” directory (Please
+remember you can change file name but save the file in “.xml” format).
+Now start “Apache” server from “XAMPP Control Panel”.
+Open Google Chrome and enter “http://localhost/RSS/ITVoyagers.xml” in URL bar.
+If your output looks like the one shown below, then you have to add RSS subscription
+extension.
+To add extension go to following link.
+https://chrome.google.com/webstore/detail/rsssubscriptionextensio/nlbjncdgjeocebhnmkbbbdekmmmcbfjd?hl=en Click on “Add to Chrome”.
+Pop-up will show up click on “Add extension” Now
+just refresh your page. Your output will get load.
+Click on any link to check if it is working. 
+
+___________________________________________________________________________________________
+
+
+Practical -8
+Aim : Study and implementation of Single-Sign-On.
+
+
+Create an AWS root user account
+Sign in as root user
+Click on aws organisation 
+Create an aws organisation 
+Click on Add an AWS account 
+Fill all the details 
+Click on create AWS account Create one more aws account Enter aws sso in the search box
+Click on IAM identity center 
+Click on enable 
+Click on groups and create users 
+Click on add a new user Enter username 
+Click on generate a one time password Once the user is created you get the
+following screen
+Click on permission sets and you get the above page Click on create permission
+set and create a permission set with administrator access 
+Click on assign users or groups Assign the accounts to the user in the group
+Click on applications,add application and assign user to the application Click on
+dashboard 
+Click on aws access portal url 
+Enter username 
+Enter password and click signin 
+Now change the password 
+Now the user can signin to the aws accounts and application 
+
+
+___________________________________________________________________________________________
+
+
+Practical – 9
+Aim: User Management in Cloud.
+
+Step 1: Install Xampp and Start Apache and MySQL services. 
+Step 2: Download and install bitnami owncloud. https://bitnami-owncloud-stack.software.informer.com/download/
+Step 3: Create Admin account. 
+Step 4: Enter username and password which you have set while creating
+account and click on Log In. 
+Step 5: Following Dashboard will get loaded. 
+Step 6: You can Create Groups, Add Users to Groups. You can Create Admin
+User and Normal User. Admin User has more rights than the Normal User. It is
+done using owncloud. 
